@@ -16,6 +16,9 @@ https://www.w3schools.com/html/html5_webstorage.asp<br />
 https://www.w3schools.com/jquery/jquery_css_classes.asp<br />
 https://www.w3schools.com/jquery/jquery_events.asp<br />
 
+Screenshot of the application:
+![](https://github.com/SandraDeve/DailyPlannerApp/blob/aef3712d86aff8e96812df2437e282e344c28cf8/images/DaySchedulerScreenshot.png)
+
 # Description
 
 Upon opening the planner, the calendar displays the current day at the top. The time blocks for standard business hours (9AM to 5PM) are presented when scrolled down. These time blocks are color-coded to signify whether they are in the past, present, or future.
