@@ -24,3 +24,19 @@ function colorCodeTimeBlocks() {
     }
   });
 }
+//Retrieve previously saved events from the local storage upon page refresh.//
+function loadSavedEvents() {
+  $(".hour").each(function () {
+    var time = $(this).text();
+    var savedPlan = localStorage.getItem(time);
+
+    if (savedPlan !== null) {
+      $(this).siblings(".plan").val(savedPlan);
+    }
+  });
+}
+//run funtcions//
+displayCurrentDay();
+colorCodeTimeBlocks();
+saveBtn.on("click", saveEvent);
+loadSavedEvents();
