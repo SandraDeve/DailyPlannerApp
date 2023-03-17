@@ -10,11 +10,11 @@ The application functionality is demonstrated in the animation below:
 
 I have been provided with the starter code. I had tutoring session regarding this project and I used as a quide following sources:
 
-https://momentjs.com/docs/#/displaying/format/
-https://api.jquery.com/
-https://www.w3schools.com/html/html5_webstorage.asp
-https://www.w3schools.com/jquery/jquery_css_classes.asp
-https://www.w3schools.com/jquery/jquery_events.asp
+https://momentjs.com/docs/#/displaying/format/<br />
+https://api.jquery.com/<br />
+https://www.w3schools.com/html/html5_webstorage.asp<br />
+https://www.w3schools.com/jquery/jquery_css_classes.asp<br />
+https://www.w3schools.com/jquery/jquery_events.asp<br />
 
 # Description
 
