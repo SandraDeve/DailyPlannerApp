@@ -24,6 +24,14 @@ function colorCodeTimeBlocks() {
     }
   });
 }
+
+// function to save the event to local storage//
+function saveEvent() {
+  var time = $(this).parent().attr("id");
+  var event = $(this).siblings(".plan").val();
+
+  localStorage.setItem(time, event);
+}
 //Retrieve previously saved events from the local storage upon page refresh.//
 function loadSavedEvents() {
   $(".hour").each(function () {
