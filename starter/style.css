@@ -52,3 +52,15 @@ textarea {
   font-size: 22px;
   transition: all 0.3s ease-in-out;
 }
+.past {
+  background-color: rgb(185, 179, 179);
+  color: cornsilk;
+}
+.present {
+  background-color: rgb(230, 113, 113);
+  color: cornsilk;
+}
+.future {
+  background-color: rgb(141, 216, 141);
+  color: cornsilk;
+}
