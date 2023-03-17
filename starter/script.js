@@ -2,8 +2,10 @@
 var saveBtn = $(".saveBtn");
 
 // Display the current day at the top of the calendar//
-$("#currentDay").text(moment().format("dddd MMMM Do YYYY"));
-
+function displayCurrentDay() {
+  var currentDate = moment().format("dddd MMMM Do YYYY");
+  $("#currentDay").text(currentDate);
+}
 // This function color codes each time block based on the current time//
 function colorCodeTimeBlocks() {
   var currentHour = moment().hours();

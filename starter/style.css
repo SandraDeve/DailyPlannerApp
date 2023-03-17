@@ -9,10 +9,10 @@ h1 {
 }
 
 textarea {
-  background: cornsilk;
+  background: transparent;
   border: none;
   resize: none;
-  color: beige;
+  color: rgb(26, 26, 25);
   border-left: 2px solid #7f8595;
   padding: 9px;
 }
@@ -34,33 +34,35 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 90px;
-  border-top: 2px solid black;
+  border-top: 2px dashed black;
 }
 .hour {
   background-color: cornsilk;
   color: brown;
   border-top: 2px #7f8595;
 }
+
+.past {
+  background-color: rgb(185, 179, 179);
+  color: rgb(12, 12, 12);
+}
+.present {
+  background-color: rgb(230, 113, 113);
+  color: rgb(42, 42, 41);
+}
+.future {
+  background-color: rgb(141, 216, 141);
+  color: rgb(29, 28, 27);
+}
+
 .saveBtn {
   border: 2px solid #7f8595;
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
-  background-color: #28557b;
+  background-color: #d12d17;
   color: cornsilk;
 }
 .saveBtn i:hover {
   font-size: 22px;
   transition: all 0.3s ease-in-out;
-}
-.past {
-  background-color: rgb(185, 179, 179);
-  color: cornsilk;
-}
-.present {
-  background-color: rgb(230, 113, 113);
-  color: cornsilk;
-}
-.future {
-  background-color: rgb(141, 216, 141);
-  color: cornsilk;
 }
