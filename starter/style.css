@@ -1,0 +1,54 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 2;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+textarea {
+  background: cornsilk;
+  border: none;
+  resize: none;
+  color: beige;
+  border-left: 2px solid #7f8595;
+  padding: 9px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: cornsilk;
+  color: brown;
+  border-radius: 0;
+  border-bottom: 9px solid #7f8595;
+}
+.description {
+  white-space: pre-wrap;
+}
+.time-block {
+  text-align: center;
+  border-radius: 14px;
+}
+.row {
+  white-space: pre-wrap;
+  height: 90px;
+  border-top: 2px solid black;
+}
+.hour {
+  background-color: cornsilk;
+  color: brown;
+  border-top: 2px #7f8595;
+}
+.saveBtn {
+  border: 2px solid #7f8595;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  background-color: #28557b;
+  color: cornsilk;
+}
+.saveBtn i:hover {
+  font-size: 22px;
+  transition: all 0.3s ease-in-out;
+}
